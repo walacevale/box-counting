@@ -3,7 +3,6 @@ import numpy as np
 import cv2
 import os
 from Func import th, gray
-##____________________________________________________#
 
 imagem = os.path.join('Dados', '3.png')
 img_th = th(gray(cv2.imread(imagem)))
